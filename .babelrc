@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ],
+  "exclude": [
+    "node_modules",
+    "nginx",
+    "client",
+    "search",
+    "ssl"
+  ]
+}
